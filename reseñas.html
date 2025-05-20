@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<header class = "header-general">
+    <nav> 
+        <a href="index.html"> <img src="img/logo.png" width="8%" alt="Foto"></a>
+        <ul>
+            <li><a href="reservas.html">Reservas</a></li>
+            <li><a href="reseñas.html">Reseñas</a></li>
+            <li><a href="carta.html">Carta</a></li>
+            <li><a href="ubicacion.html">Ubicación</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <h1>RESEÑAS</h1>
+    <div>
+    <hr style="border-radius: 10px; height: 20px;; background-color: #f8b400; width: 20%;">
+    <hr style="border-radius: 10px; height: 20px;; background-color: #f8b400; width: 10%;">
+    <hr style="border-radius: 10px; height: 20px;; background-color: #f8b400; width: 13%;">
+    <hr style="border-radius: 10px; height: 20px;; background-color: #f8b400; width: 5%;">
+    <hr style="border-radius: 10px; height: 20px;; background-color: #f8b400; width: 2%;">
+    </div>
+<section class ="puntaje">
+<div><h1>4.6</h1><h4>4.103 reseñas</h4></div>
+</section>    
+<form action ="reseñaexitosa.html" method="get">
+    <h3>Puntuá Estación Villa Crespo:</h3>
+    <div class="stars">
+          <input type="radio" id="star5" name="rating" value="5" />
+          <label for="star5">★</label>
+    
+          <input type="radio" id="star4" name="rating" value="4" />
+          <label for="star4">★</label>
+    
+          <input type="radio" id="star3" name="rating" value="3" />
+          <label for="star3">★</label>
+    
+          <input type="radio" id="star2" name="rating" value="2" />
+          <label for="star2">★</label>
+    
+          <input type="radio" id="star1" name="rating" value="1" required/>
+          <label for="star1">★</label>
+    </div>
+    <br><br>
+    Escribí tu reseña: <br>
+    <textarea name="descripción" rows="15" cols="50" placeholder="Agrega una descripción detallada de lo que le pareció la experiencia." required></textarea>
+     <br><input type="submit" value="Enviar Reseña">
+    </form>
+    <footer>
+    <a href="index.html"> <img src="img/logonegro.png" width="12%" alt="Foto"></a>
+    <section>
+        <article>
+    <img src="img/instagram.png" class="instagram" width="20%" height="auto" alt="Foto">
+    <h6>Instagram</h6>
+    <!-- target="_blank" = ChatGPT. Función: Abrir una pestaña nueva al tocar el hipervinculo -->
+    <p><a href="https://www.instagram.com/estacionvillacrespo/" target="_blank">@estacionvillacrespo</a></p>
+        </article>
+        <article>
+    <img src="img/whatsapp.png" class="whatsapp" width="20%" height="auto" alt="Foto">
+    <h6>WhatsApp</h6>
+    <p>011 4858-1618</p>
+        </article>
+        <article>
+    <img src="img/ubicacion.png" class="ubicacion" width="20%" height="auto" alt="Foto">
+    <h6>Ubicación</h6>
+    <p>Av. Corrientes 5546, Cdad. Autónoma de Buenos Aires</p>
+        </article>
+    </section>
+    <h3>&copy; 2025 - Estación Villa Crespo</h3>
+</footer>
+    </body>
+</html>
