@@ -143,7 +143,12 @@ h1 {
 
 div section{
     float: right;
-    width: 50%;   
+    width: 48%; 
+    border: 1px solid black;  
+    padding-bottom: 4%;
+    margin-top:6%;
+    margin-right: 0.7%;
+    border-radius: 5px;
 }
 .puntaje{
     margin-top: 6%;
@@ -156,11 +161,11 @@ div section h2{
     font-size: 30px;
     font-weight: 300;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 9%;
 }
 div section h3{
-    margin-left:2%;
-    width: 96%;
+    margin-left:12%;
+    width: 76%;
     font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
     letter-spacing: 1.5px;
     font-size: 20px;
