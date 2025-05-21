@@ -153,6 +153,37 @@ div section{
     margin-right: 0.7%;
     border-radius: 5px;
 }
+.cocineros{
+    margin-top: 5%;
+    margin-left: 4.3%;
+}
+.cocineros div img{
+    margin-bottom:3%;
+}
+.cocineros div h2{
+    margin-left:3.6%;
+    text-align: center;
+    margin-bottom: 3%;
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.cocineros div p{
+    margin-left: 3.6%;
+    text-align: center;
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    font-weight: 450;
+    color: black; 
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    margin-bottom: 20%;
+}
+.cocineros div{
+    margin-left: 5%;
+    float:left;
+    width:25%;
+}
 .puntaje{
     margin-top: 6%;
     float: right;
