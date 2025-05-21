@@ -33,6 +33,9 @@ form{
     margin-left: 36.5%;
     clear: both;
 }
+.reseña{
+    margin-left: 40.5%;
+}
 input{
     border: solid 1px black;
     border-radius: 5px;
